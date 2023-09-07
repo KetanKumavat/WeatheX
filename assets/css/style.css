@@ -145,7 +145,7 @@ html {
 }
 
 body {
-  background-image: url(/bg-image.jpg);
+  background-image: url(../../bg-image.jpg);
   color: var(--on-background);
   font-size: var(--body-3);
   overflow: hidden;
