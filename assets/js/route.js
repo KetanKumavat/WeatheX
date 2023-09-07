@@ -8,7 +8,7 @@ const currentLocation = function () {
     (res) => {
       const { latitude, longtitude } = res.coords;
 
-      updateWeather(`lat=${latitude}`, `lon=${longtitude}`);
+      updateWeather(`lat=${latitude}`, `lon=${longitude}`);
     },
     (err) => {
       window.location.hash = defaultLocation;
